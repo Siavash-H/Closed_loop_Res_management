@@ -21,7 +21,7 @@ main () {
     rm -rf /root/.cache
 
     # Download repo
-    URL=https://github.com/patricknraanes/HistoryMatching.git
+    URL=https://github.com/Siavash-H/Closed_loop_Res_management.git
     if [[ ! -d REPO ]]; then git clone --depth=1 $URL REPO; fi
 
     # Install requirements
