@@ -1,0 +1,7 @@
+*.ipynb
+tmp*.py
+.vim
+refs
+todo.md
+
+.fig_layout.*
