@@ -25,4 +25,5 @@ If the set up goes correct, for next times there is no need to do mentioned step
 
 and following steps.
 
-Finally open file “EnKF_MAIN.ipynb”.
+Finally open file “CLRM.ipynb”.
+If “CLRM.py” causes an error, delete it.
