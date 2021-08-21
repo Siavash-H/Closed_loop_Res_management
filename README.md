@@ -27,3 +27,6 @@ and following steps.
 
 Finally open file “CLRM.ipynb”.
 If “CLRM.py” causes an error, delete it.
+
+
+![](uis.png)
