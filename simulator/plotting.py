@@ -257,7 +257,7 @@ def style(label, N=100):
         style.alpha  = .3
     if label == "ES":
         # style.label = "Ens. Smooth."
-        style.c      = "C1"
+        style.c      = "C8"
         style.alpha  = .3
     if label == "ES0":
         style.c      = "C2"
@@ -266,9 +266,15 @@ def style(label, N=100):
     if label == "iES":
         style.c      = "C4"
         style.alpha  = .3
-    if label == "EnKF_recursive":
+    if label == "EnKF":
         style.c      = "C5"
         style.alpha  = .6
+    if label == "CLRM":
+        style.c      = "C6"
+        style.alpha  = .5
+    if label == "CLRM_Fu":
+        style.c      = "C7"
+        style.alpha  = .8    
 
     # Incrase alpha if N is small
     style.alpha **= (1 + np.log10(N/100))
